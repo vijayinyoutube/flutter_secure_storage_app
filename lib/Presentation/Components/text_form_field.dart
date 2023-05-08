@@ -23,7 +23,7 @@ class TextFormFieldBldr extends StatelessWidget {
           ),
         ),
         prefixIcon: Icon(
-          Icons.person,
+          Icons.lock,
           color: primaryColor,
         ),
         filled: true,

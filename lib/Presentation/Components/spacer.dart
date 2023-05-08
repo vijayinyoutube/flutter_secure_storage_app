@@ -5,9 +5,7 @@ class HeightSpacer extends StatelessWidget {
   const HeightSpacer({Key? key, required this.myHeight}) : super(key: key);
   @override
   Widget build(BuildContext context) {
-    return SizedBox(
-      height: myHeight,
-    );
+    return SizedBox(height: myHeight);
   }
 }
 
@@ -16,8 +14,6 @@ class WidthSpacer extends StatelessWidget {
   const WidthSpacer({Key? key, required this.myWidth}) : super(key: key);
   @override
   Widget build(BuildContext context) {
-    return SizedBox(
-      width: myWidth,
-    );
+    return SizedBox(width: myWidth);
   }
 }

@@ -38,10 +38,9 @@ class _HomePageState extends State<HomePage> {
         child: Padding(
           padding: kPadding,
           child: Column(
-            mainAxisAlignment: MainAxisAlignment.start,
+            mainAxisAlignment: MainAxisAlignment.center,
             children: [
-              HeightSpacer(myHeight: kSpacing * 8),
-              Icon(Icons.lock, color: primaryColor, size: 100),
+              Icon(Icons.security, color: primaryColor, size: 100),
               HeightSpacer(myHeight: kSpacing),
               Text('Storing data securely using Flutter Secure Storage',
                   textAlign: TextAlign.center,
@@ -50,6 +49,7 @@ class _HomePageState extends State<HomePage> {
               TextFormFieldBldr(textEditingController: textEditingController),
               HeightSpacer(myHeight: kSpacing * 2),
               PrimaryBtn(btnText: 'Store Data', btnFun: () {}),
+              HeightSpacer(myHeight: kSpacing * 3),
             ],
           ),
         ),
