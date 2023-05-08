@@ -57,6 +57,10 @@ class _HomePageState extends State<HomePage> {
               PrimaryBtn(
                   btnText: 'Read Data',
                   btnFun: () => SecureStorage().readSecureData('name')),
+              HeightSpacer(myHeight: kSpacing * 2),
+              PrimaryBtn(
+                  btnText: 'Delete Data',
+                  btnFun: () => SecureStorage().deleteSecureData('name')),
               HeightSpacer(myHeight: kSpacing * 3),
             ],
           ),
