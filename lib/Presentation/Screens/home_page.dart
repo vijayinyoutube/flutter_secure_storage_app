@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import '../../Data/Local_Storage/secure_storage.dart';
 import '../Components/primary_btn.dart';
 import '../Components/spacer.dart';
 import '../Declarations/constants.dart';
@@ -48,7 +49,14 @@ class _HomePageState extends State<HomePage> {
               HeightSpacer(myHeight: kSpacing * 2),
               TextFormFieldBldr(textEditingController: textEditingController),
               HeightSpacer(myHeight: kSpacing * 2),
-              PrimaryBtn(btnText: 'Store Data', btnFun: () {}),
+              PrimaryBtn(
+                  btnText: 'Store Data',
+                  btnFun: () => SecureStorage()
+                      .writeSecureData('name', textEditingController.text)),
+              HeightSpacer(myHeight: kSpacing * 2),
+              PrimaryBtn(
+                  btnText: 'Read Data',
+                  btnFun: () => SecureStorage().readSecureData('name')),
               HeightSpacer(myHeight: kSpacing * 3),
             ],
           ),
