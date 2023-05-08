@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_secure_storage_app/Presentation/Routes/generated_routes.dart';
-import 'package:flutter_secure_storage_app/Presentation/Screens/home_page.dart';
+import 'Presentation/Routes/generated_routes.dart';
+import 'Presentation/Screens/home_page.dart';
 
 void main() {
   runApp(const MyApp());

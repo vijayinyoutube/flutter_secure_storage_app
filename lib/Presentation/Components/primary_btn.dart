@@ -17,8 +17,8 @@ class PrimaryBtn extends StatelessWidget {
   }
 
   getBtnStyle(context) => ElevatedButton.styleFrom(
-      shape: RoundedRectangleBorder(borderRadius: kBorderRadius),
+      shape: RoundedRectangleBorder(borderRadius: kBorderRadius / 2),
       backgroundColor: primaryColor,
       fixedSize: Size(MediaQuery.of(context).size.width - 40, 47),
-      textStyle: const TextStyle(fontWeight: FontWeight.bold));
+      textStyle: TextStyle(fontWeight: FontWeight.bold, fontSize: kfontSize));
 }

@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_secure_storage_app/Presentation/Screens/home_page.dart';
+import '../Screens/home_page.dart';
 
 class RouteGenerator {
    Route<dynamic> generateRoute(RouteSettings settings) {
