@@ -18,7 +18,9 @@ class PrimaryBtn extends StatelessWidget {
 
   getBtnStyle(context) => ElevatedButton.styleFrom(
       shape: RoundedRectangleBorder(borderRadius: kBorderRadius / 2),
-      backgroundColor: primaryColor,
+      backgroundColor: btnText == 'Delete Data'
+          ? const Color.fromARGB(255, 180, 12, 0)
+          : primaryColor,
       fixedSize: Size(MediaQuery.of(context).size.width - 40, 47),
       textStyle: TextStyle(fontWeight: FontWeight.bold, fontSize: kfontSize));
 }
