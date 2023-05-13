@@ -23,7 +23,7 @@
 
 <p align="center">
 
-[<img src="https://github.com/vijayinyoutube/flutter_secure_storage_app/assets/58719230/ece5b0f1-f5c2-45b1-8659-90cd4e9d745f" width="100%">](https://www.youtube.com/channel/UCBC_Z7jla1GSITcqLKAtPxQ)
+[<img src="https://github-production-user-asset-6210df.s3.amazonaws.com/58719230/238126487-54cb13e9-7006-4bd5-b5f3-122f5a3e1910.png" width="100%">](https://www.youtube.com/channel/UCBC_Z7jla1GSITcqLKAtPxQ)
 
 </p>
 
